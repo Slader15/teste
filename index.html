@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Real Madrid</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300 - 400 - 500 - 700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__titulo">Categorias</li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Títulos</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Notícias</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Elenco</a>
+                    </li>
+                </ul>
+                <h1 class="container__titulo">Real Madrid</h1>
+            </div>
+            <ul class="opçoes">
+                <input type="checkbox" id="opçoes-menu" class="opçoes__botao">
+                <label for="opçoes-menu" class="opçoes__rotulo">
+                <li class="opçoes__item">Categorias</li>
+                </label>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Notícias</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Elenco</a>
+                    </li>
+                </ul>
+                <li class="opçoes__item"><a href="#" class="opçoes__link">Títulos</a></li>
+            </ul>
+            <div class="container">
+                <a href="#" class="container__link"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p></a>
+            </div>
+        </header>
+        <section class="banner">
+            <h2 class="banner__titulo">O que você procura do maior clube do mundo?</h2>
+            <p class="banner__texto">Encontre o tudo sobre o maior clube do mundo</p>
+            <input type="search" class="banner__pesquisa" placeholder="O que você procura?">
+        </section>
+        <section class="RMD">
+            <div class="RMDdiv">
+            <h2 class="RMDtitulo">História do Maior Clube do Mundo</h2>
+                <p class="escrita">O Real Madrid é um dos clubes de futebol mais icônicos e bem-sucedidos do mundo. Fundado em 1902 em Madrid, Espanha, o clube teve um crescimento rápido e se tornou um dos principais representantes do futebol espanhol.</p>
+                <p class="escrita">O Real Madrid ganhou destaque internacional na década de 1950, quando conquistou cinco vezes consecutivas a recém-criada Liga dos Campeões da UEFA entre 1956 e 1960, com uma equipe lendária liderada por jogadores como Alfredo Di Stéfano, Ferenc Puskás e Francisco Gento.</p>
+                <p class="escrita">Ao longo dos anos, o clube continuou a construir uma rica história de conquistas em competições nacionais e europeias, incluindo várias Ligas dos Campeões, Campeonatos Espanhóis, Copas do Rei e outros títulos.</p>
+                <p class="escrita">O Real Madrid é conhecido por atrair alguns dos melhores jogadores do mundo, tornando-se a casa de ícones do futebol, como Cristiano Ronaldo, Zinedine Zidane, Raul, Roberto Carlos e muitos outros.</p>
+                <p class="escrita">O clube possui uma das maiores rivalidades do esporte com o Barcelona, em um duelo conhecido como "El Clásico", que é amplamente considerado um dos jogos de futebol mais emocionantes e aguardados do mundo.</p>
+                <p class="escrita">Além do futebol, o Real Madrid também possui seções de sucesso em outros esportes, como basquete, handebol e futebol de salão.</p>
+                <p class="escrita">Ao longo de sua história, o Real Madrid conquistou um número impressionante de títulos e mantém uma base de fãs apaixonada e globalmente diversificada. Sua camisa branca e coroa real são reconhecidas em todo o mundo como símbolos da grandeza e tradição do futebol.</p>
+            </div>
+        </section>
+
+        <hr />
+
+        <footer class="rodapé">
+            <h2 class="rodapé__titulo">Real Madrid</h2>
+            <ul class="lista-rodapé">
+            <li class="lista-rodapé__titulo">RMD</li>
+                <li class="lista-rodapé__item">
+                    <img src="img/real-madrid-c-f-logo-svg-vector 1.svg" alt="logo real">
+                    <a href="#" class="lista-rodapé__link">Site Real Madrid</a>
+                </li>
+                <li class="lista-rodapé__item">
+                    <img src="img/Instagram.svg" alt="insta real">
+                    <a href="#" class="lista-rodapé__link">Instagram Real Madrid</a>
+                </li>
+            </ul>
+        </footer>
+    
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
+    </body>
+</html>

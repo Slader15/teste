@@ -1,0 +1,20 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/real.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #FFFFFF;
+    --dourado: #c5b90a;
+    --azul: #0034dd;
+    --fonte-principal: "Poppings";
+    --branco: #FFFFFF;
+    --fonte-secundario: "Sans";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
